@@ -1,17 +1,26 @@
 package com.company.model;
 
-public class Compartment extends PassengerWagon{
+public class CompartmentWagon extends PassengerWagon{
 
     //private int passengers;
    // private int baggage;
     private static final LevelOfComfort comfort = LevelOfComfort.COUPE;
-
-    public Compartment() {
+    private static final int passengerLimit = 36;
+    public CompartmentWagon() {
+        this.passengers = 0;
+        this.baggage = 0;
     }
 
-    public Compartment(int passengers, int baggage) {
-        super(passengers, baggage);
+    public CompartmentWagon(int passengers, int baggage) {
+        if (checkLimit(passengers,passengerLimit,baggage)){
+            this.passengers = passengers;
+            this.baggage = baggage;
+        }else {
+            throw new IllegalArgumentException();
+        }
     }
+
+
 
 
     @Override

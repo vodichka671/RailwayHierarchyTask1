@@ -2,12 +2,20 @@ package com.company.model;
 
 public class VipWagon extends PassengerWagon {
     private static final LevelOfComfort comfort = LevelOfComfort.VIP;
-
+    private static final int passengerLimit = 11;
     public VipWagon() {
+        this.passengers = 0;
+        this.baggage = 0;
     }
 
-    public VipWagon(int passengers, int baggage) {
-        super(passengers, baggage);
+    public VipWagon (int passengers, int baggage) throws IllegalArgumentException{
+      if (checkLimit(passengers,passengerLimit,baggage)){
+          this.passengers = passengers;
+          this.baggage = baggage;
+      }else {
+          throw new IllegalArgumentException();
+      }
+
     }
 
 
