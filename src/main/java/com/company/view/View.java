@@ -1,7 +1,7 @@
 package com.company.view;
 
-public class Show {
-    public void show(String msg){
+public class View {
+    public void showMessage(String msg){
         System.out.println(msg);
     }
 }

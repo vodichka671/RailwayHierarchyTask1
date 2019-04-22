@@ -4,7 +4,7 @@ public class CompartmentWagon extends PassengerWagon{
 
     //private int passengers;
    // private int baggage;
-    private static final LevelOfComfort comfort = LevelOfComfort.COUPE;
+    private static final LevelOfComfort comfort = LevelOfComfort.COMPARTMENT;
     private static final int passengerLimit = 36;
     public CompartmentWagon() {
         this.passengers = 0;

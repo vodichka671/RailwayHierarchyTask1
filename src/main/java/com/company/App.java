@@ -1,6 +1,8 @@
 package com.company;
 
+import com.company.controller.Controller;
 import com.company.model.*;
+import com.company.view.View;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,6 +35,8 @@ public class App
              ) {
             System.out.println(i);
         }
+        Controller controller = new Controller(new Train(), new View());
+        controller.chooseLocale();
 
 
 
