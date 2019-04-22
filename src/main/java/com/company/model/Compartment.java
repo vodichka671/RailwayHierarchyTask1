@@ -1,19 +1,22 @@
 package com.company.model;
 
-public class VipWagon extends PassengerWagon {
-    private static final LevelOfComfort comfort = LevelOfComfort.VIP;
+public class Compartment extends PassengerWagon{
 
-    public VipWagon() {
+    //private int passengers;
+   // private int baggage;
+    private static final LevelOfComfort comfort = LevelOfComfort.COUPE;
+
+    public Compartment() {
     }
 
-    public VipWagon(int passengers, int baggage) {
+    public Compartment(int passengers, int baggage) {
         super(passengers, baggage);
     }
 
 
     @Override
-    public LevelOfComfort getComfort() {
-        return comfort;
+    public  LevelOfComfort getComfort() {
+       return comfort;
     }
 
     @Override

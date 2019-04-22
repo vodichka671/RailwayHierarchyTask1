@@ -5,4 +5,7 @@ enum LevelOfComfort {
     LOCOMOTIVE, OPEN_TYPE, COUPE, VIP
 }
     LevelOfComfort getComfort();
+    int getPassengers();
+    int getBaggage();
+
 }
