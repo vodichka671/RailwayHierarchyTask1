@@ -17,26 +17,15 @@ public class App
 
     public static void main( String[] args )
     {
-        //System.out.println(TrainTeam.ONE.ordinal());
-        List<Wagon> list = new ArrayList<>();
-
-
         Train train = new Train();
         train.add(new CompartmentWagon(5,45));
-
+        train.add(new OpenTypeWagon(45,146));
         train.add(new OpenTypeWagon(5,3));
         train.add(new VipWagon(11,2));
-        train.add(new CompartmentWagon());
+        train.add(new CompartmentWagon(34,123));
 
-        train.sort();
-        ArrayList<Wagon> w = train.findWagons(3,11);
-
-        for (Wagon i:w
-             ) {
-            System.out.println(i);
-        }
-        Controller controller = new Controller(new Train(), new View());
-        controller.chooseLocale();
+        Controller controller = new Controller(train, new View());
+        controller.run();
 
 
 

@@ -7,5 +7,6 @@ enum LevelOfComfort {
     LevelOfComfort getComfort();
     int getPassengers();
     int getBaggage();
+    String toString();
 
 }

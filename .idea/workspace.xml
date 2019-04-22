@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f872a7e1-a609-45b9-9010-4fbc8c6e601e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/CompartmentWagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/CompartmentWagon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/Wagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Wagon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/view/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/view/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/view/Show.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/controller/PropertiesConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/controller/PropertiesConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/menu_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/menu_en_US.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/menu_ru_RU.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/menu_ru_RU.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/PassengerWagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/PassengerWagon.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,11 +22,20 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="281">
+              <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PassengerWagon.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/model/PassengerWagon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -42,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
+            <state relative-caret-position="1242">
               <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -57,8 +64,8 @@
       <file leaf-file-name="PropertiesConstants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/controller/PropertiesConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="184">
+              <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -76,8 +83,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/menu_en_US.properties">
           <provider editor-type-id="ResourceBundle" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="92">
+              <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -86,8 +93,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/menu_ru_RU.properties">
           <provider editor-type-id="ResourceBundle" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+            <state relative-caret-position="69">
+              <caret line="3" column="67" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -115,7 +122,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/company/model/Coupe.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/model/Compartment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/model/VipWagon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/model/PassengerWagon.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/model/OpenTypeWagon.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/model/Train.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/model/Model.java" />
@@ -123,15 +129,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/company/view/Show.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/resources/menu.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/resources/menu_en_US.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/controller/ResourceManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/java/com/company/controller/PropertiesConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/controller/PropertiesConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/menu_ru_RU.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/model/Wagon.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/model/CompartmentWagon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/menu_en_US.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/controller/PropertiesConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/menu_en_US.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/menu_ru_RU.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/model/PassengerWagon.java" />
       </list>
     </option>
   </component>
@@ -322,8 +329,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2526998" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2526998" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
@@ -561,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/model/PassengerWagon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/model/VipWagon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -640,26 +640,16 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/menu_ru_RU.properties">
       <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="69">
+          <caret line="3" column="67" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/menu_en_US.properties">
       <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="92">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -672,8 +662,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/controller/PropertiesConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="184">
+          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -684,13 +684,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/controller/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+        <state relative-caret-position="281">
+          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/model/PassengerWagon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>

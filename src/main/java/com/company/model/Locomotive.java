@@ -21,6 +21,6 @@ public class  Locomotive implements Wagon {
 
     @Override
     public String toString() {
-        return comfort.toString();
+        return comfort.toString() + ": Without passengers and baggage";
     }
 }

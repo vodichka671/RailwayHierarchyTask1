@@ -59,7 +59,8 @@ public class Controller {
         bundle = ResourceBundle.getBundle(resource,chooseLocale());
         boolean flag = true;
       while(flag){
-          view.showMessage(bundle.getString(PropertiesConstants.SORT)+"\n"+bundle.getString(PropertiesConstants.FIND_WAGONS));
+          view.showMessage(bundle.getString(PropertiesConstants.SORT)+"\n"+bundle.getString(PropertiesConstants.FIND_WAGONS)
+                 + "\n"+bundle.getString(PropertiesConstants.SHOW_PASSENGERS_BAGGAGE));
           while (!sc.hasNextInt()){
               view.showMessage(PropertiesConstants.ERROR_INPUT);
               sc.next();
@@ -71,8 +72,11 @@ public class Controller {
                         break;
               case 2: view.showMessage(train.findWagons(12,34).toString());
                         break;
-              case 3: flag =false;
+              case 3: view.showMessage("Amount of passengers : " + Train.getAmountOfPassengers() + "\n"+
+                                            "Amount of baggage : " + Train.getAmountOfBaggage());
                         break;
+              case 4: flag = false;
+                         break;
               default: flag = false;
           }
 

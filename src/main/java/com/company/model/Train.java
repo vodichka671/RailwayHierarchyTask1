@@ -49,4 +49,15 @@ public class Train {
         return result;
     }
 
+    @Override
+    public String toString() {
+        StringBuffer temp = new StringBuffer();
+        for (Wagon wagon:this.getTrain()
+             ) {
+            temp.append(wagon.toString());
+
+        }
+        String result = new String(temp);
+        return result;
+    }
 }

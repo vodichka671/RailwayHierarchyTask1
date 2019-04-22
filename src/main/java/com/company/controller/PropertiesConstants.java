@@ -6,5 +6,6 @@ public interface PropertiesConstants {
     String ERROR_INPUT = "error.input";
     String SORT = "sort";
     String FIND_WAGONS = "find.wagons";
+    String SHOW_PASSENGERS_BAGGAGE = "show.passengers.baggage";
 
 }

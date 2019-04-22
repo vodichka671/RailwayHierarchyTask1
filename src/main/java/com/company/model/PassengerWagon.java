@@ -8,7 +8,7 @@ public abstract class PassengerWagon implements Wagon {
 
     @Override
     public String toString() {
-        return ""+getComfort() + getPassengers()+getBaggage() ;
+        return "Wagon Type : "+getComfort() +"\n"+"Amount of passengers : "+ getPassengers()+ "\n"+ "Amount of baggage : " + getBaggage() ;
     }
     public boolean checkLimit(int people, int peopleLimit, int baggage){
         if (baggage<=0||people<=0){
